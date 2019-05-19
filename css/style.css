@@ -1,0 +1,303 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 2000px;
+}
+
+.main-header {
+  width: 100%;
+}
+
+.top-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #000;
+  z-index: 5;
+}
+
+.mob-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+
+}
+
+.top-nav a {
+  float: right;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.mob-nav a {
+  visibility: hidden;
+
+}
+
+.top-nav a:hover {
+  background: #bfbfbf;
+}
+
+.nav-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 50px;
+}
+
+main {
+  position: relative;
+  top: 130px;
+  height: 100%;
+
+}
+
+.main-title {
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  letter-spacing: 20px;
+  text-align: center;
+  color: #000;
+
+}
+
+.slogan {
+  position: relative;
+  top: 18px;
+  font-size: ;
+  letter-spacing: 15px;
+  text-align: center;
+  background: red;
+  color: #000;
+}
+
+.top-story {
+  position: relative;
+  width: 1000px;
+  width: 400px;
+  height: 500px;
+  top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background: #000;
+
+}
+
+.ts-title {
+  position: relative;
+  top: 230px;
+  width: 100%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  color: #000;
+  background: #fff;
+
+}
+
+.ts-img > img {
+  position: relative;
+  top: -55px;
+  width: 100%;
+  margin-left: 0px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+
+
+
+}
+
+.ts-img > p {
+  position: relative;
+  top: 25px;
+  padding: 2px;
+  color: #fff;
+  text-align: center;
+}
+
+.top-story:hover {
+
+}
+
+.the-team {
+  position: relative;
+  top: 50px;
+  height: 785px;
+  width: 100%;
+  background: #fff;
+}
+
+.mtt {
+  position: relative;
+  top: 50px;
+  font-size: ;
+  letter-spacing: 15px;
+  text-align: center;
+  background: green;
+  color: #fff;
+}
+
+
+.team-div {
+  display: inline-block;
+  position: relative;
+  top: 75px;
+  margin-left: 170px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  background: #000;
+  vertical-align: middle;
+}
+
+.team-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.team-img img {
+  position: relative;
+  top: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  margin-left: 120px;
+  border: 1px solid red;
+  border-radius: 50%;
+
+}
+
+.team-title {
+  position: relative;
+  top: 25px;
+  width: 75%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-radius: 15px
+  color: #000;
+  background: #fff;
+  border-radius: 15px;
+
+}
+
+.team-p {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+@media screen and (max-width: 800px) {
+
+  .mob-nav {
+    background: #000;
+  }
+
+  .mob-nav a{
+    visibility: visible;
+    float: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+
+  }
+
+  .mob-nav a:hover {
+    background: #bfbfbf;
+  }
+
+  .top-nav a{
+    visibility: hidden;
+
+  }
+
+  #ts {
+    top: 200px;
+  }
+
+  .slogan {
+    top: 50px;
+    font-size: 16px;
+  }
+
+  .main-title {
+    display: block;
+    top: 300px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin: 5px;
+
+  }
+
+  .top-story {
+    top:;
+    width: 300px;
+    height: 350px;
+
+  }
+  .ts-img > img {
+    position: relative;
+    top: -30px;
+    width: 100%;
+
+  }
+
+  .ts-title {
+    top: 190px;
+
+  }
+
+  .ts-img > p {
+    font-size: 14px;
+    top: 15px;
+  }
+
+  .the-team {
+    top: 180px;
+  }
+
+  .mtt {
+    font-size: 16px;
+  }
+
+  .team-div {
+    margin-left: 25px;
+    width: 250px;
+    padding: 10px;
+  }
+
+  .team-img img {
+    margin-left: 40px;
+  }
+
+}
